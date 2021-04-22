@@ -1,0 +1,62 @@
+/* Cuando el tamaño sea igual a 900 o menor se aplican estos cambios */
+@media (max-width: 900px){
+.blogs-main-new{
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+.blogs-news-img-container{
+    grid-row: 2;
+}
+.blogs-news-info-container {
+    grid-column: 1;
+    grid-row: 3;
+}
+.blogs-post-container .post-container{
+    max-width: 45%;
+}
+.posits-items{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+.contenedor-perfil .contenedor-perfil-elementos {
+display: block;
+}
+footer {
+
+    height: 118px;
+}
+}
+
+@media (max-width: 600px){
+    body{
+        width: 359px;
+    }
+    .blogs-post-container .post-container{
+        max-width: 95%;
+    }
+    .contact-main-container .contact-left, .contact-right {
+        
+        margin-top: 35px;
+    }
+    .contact-main-container div {
+        margin-top: 30px;
+    }
+    footer {
+        height: 100%;
+        padding-bottom: 15px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.home-main-text {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.contact-main-container div {
+    width: 45.5%;
+}
+
+}
